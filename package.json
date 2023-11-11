@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": "14.x",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=16.17.0"
   },
   "keywords": [],
   "author": "",
