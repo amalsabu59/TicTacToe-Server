@@ -2,6 +2,9 @@ const router = require("express").Router();
 const Game = require("../models/game");
 
 // Endpoint to add a game
+router.get("/", async (req, res) => {
+  res.send("hello");
+});
 router.post("/add-game", async (req, res) => {
   // debugger;
   try {
